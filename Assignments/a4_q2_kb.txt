@@ -1,0 +1,6 @@
+swerve <-- cut_off & close_distance & lane_empty
+slow_down <-- over_speed_limit
+apply_brake <-- car_ahead_stops
+apply_gas <-- car_moves_ahead & light_green
+honk <-- stupid_action_detected
+record <-- motion_detected_parked
